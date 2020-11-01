@@ -1,0 +1,131 @@
+[31-Oct-2020 09:03:19 UTC] PHP Warning:  chmod(): Operation not permitted in /home/brandsoft-dev7/Workspace/Litemus/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[31-Oct-2020 09:03:21 UTC] PHP Warning:  chmod(): Operation not permitted in /home/brandsoft-dev7/Workspace/Litemus/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[31-Oct-2020 09:03:21 UTC] PHP Warning:  chmod(): Operation not permitted in /home/brandsoft-dev7/Workspace/Litemus/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[31-Oct-2020 09:03:21 UTC] PHP Warning:  chmod(): Operation not permitted in /home/brandsoft-dev7/Workspace/Litemus/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[31-Oct-2020 09:03:21 UTC] PHP Warning:  chmod(): Operation not permitted in /home/brandsoft-dev7/Workspace/Litemus/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[31-Oct-2020 09:55:32 UTC] PHP Warning:  Use of undefined constant header - assumed 'header' (this will throw an Error in a future version of PHP) in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:32 UTC] PHP Warning:  Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:32 UTC] PHP Warning:  A non-numeric value encountered in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:32 UTC] PHP Warning:  A non-numeric value encountered in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:32 UTC] PHP Warning:  _() expects exactly 1 parameter, 2 given in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:55:36 UTC] PHP Warning:  Use of undefined constant header - assumed 'header' (this will throw an Error in a future version of PHP) in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:36 UTC] PHP Warning:  Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:36 UTC] PHP Warning:  A non-numeric value encountered in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:36 UTC] PHP Warning:  A non-numeric value encountered in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:36 UTC] PHP Warning:  _() expects exactly 1 parameter, 2 given in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:55:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:56:25 UTC] PHP Warning:  _() expects exactly 1 parameter, 2 given in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19
+[31-Oct-2020 09:56:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:56:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:56:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:57:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:57:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:57:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:57:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:57:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:57:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 19 and exactly 2 expected in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php(19): register_nav_menu(Array)
+#1 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(287): litemusAddMenu('')
+#2 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/brandsoft-dev7/Workspace/Litemus/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/brandsoft-dev7/Workspace/Litemus/wp-settings.php(546): do_action('init')
+#5 /home/brandsoft-dev7/Workspace/Litemus/wp-config.php(93): require_once('/home/brandsoft...')
+#6 /home/brandsoft-dev7/Workspace/Litemus/wp-load.php(37): require_once('/home/brandsoft...')
+#7 /home/brandsoft-dev7/Workspace/Litemus/w in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/nav-menu.php on line 136
+[31-Oct-2020 09:58:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymFitnessMenus' not found or invalid function name in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php on line 287
+[31-Oct-2020 16:57:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '{' in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 26
+[31-Oct-2020 16:58:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 28
+[31-Oct-2020 19:59:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'lapizzeria_specialties' not found or invalid function name in /home/brandsoft-dev7/Workspace/Litemus/wp-includes/class-wp-hook.php on line 287
+[31-Oct-2020 20:59:27 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/brandsoft-dev7/Workspace/Litemus/wp-content/themes/Litemus/functions.php on line 28

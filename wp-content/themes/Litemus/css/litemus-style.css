@@ -1,0 +1,329 @@
+html{
+    box-sizing:border-box;
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+.clear,.clear:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+/* Start header */
+header.Site-header{
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 30px;
+}
+div.logo{
+    text-align: center;
+}
+@media only screen and (min-width:768px){
+    div.logo{
+        text-align: left;
+    } 
+}
+@media only screen and (min-width:992px){
+    div.logo{
+        text-align: center;
+    } 
+}
+div.logo img{
+    width:100px;
+}
+/* header.side-header .container{
+        position: relative;
+    } 
+header.side-header .header-information{
+        position: absolute;
+        top:0;
+        right: 0;
+    }  */
+
+.header-information{
+    position: absolute;
+    left: 74%;
+    bottom: 80%;
+}
+div.address{
+    display: block;
+    clear: both;
+}
+div.address p{
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+}
+/*Social icon*/
+nav.socials ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+nav.socials{
+    display: block;
+}
+nav.socials ul li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+/*Main Menu*/
+nav.side-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    direction: none;
+    width: 100%;
+    display: table;
+}
+nav.side-nav ul li{
+    display: table-cell;
+    width: 1%;
+    text-align: center;
+}
+nav.side-nav ul li a{
+    padding: 20px 0;
+    display: block;
+    font-weight: bold;
+    direction: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.side-nav ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(236, 233, 233);
+}
+nav.side-nav ul li.current_page_item a,
+nav.side-nav ul li.current_page_parent a{
+    border-bottom: 4px solid #a61206;
+}
+/* End header */
+/* About us page start */
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero .hero-content{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.main-content{
+    padding: 50px;
+    background-color: #fff;
+    position: relative;
+}
+@media only screen and (min-width:768px){
+    .main-content{
+        margin-top: -90px;
+    }
+}
+.content-text p{
+    font-size:18px;
+    line-height: 50px;
+}
+/* About us page end */
+
+/* Start Footer */
+footer{
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top:1px solid #c1c1c1;
+    text-align: center;
+}
+footer nav ul{
+    list-style: none;
+}
+footer nav ul li{
+    display: inline;
+}
+footer nav ul li:last-child .separator{
+    display: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color:#000;
+}
+footer .location{
+    margin-top: 30px;
+}
+footer p{
+    margin:0 0 5px 0;
+    font-size: 14px;
+}
+footer p.copyright{
+    margin-top:20px;
+}
+/* end footer */
+
+/* start Client Page*/
+.container-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap:1rem;
+   
+}
+.container-grid .content{
+    border: 1px solid #c1c1c1;
+    text-align: center;
+    padding: 20px;
+}
+.container-grid .content h5{
+    padding-top: 20px;
+    color:#999999;
+
+}
+
+/* end Client Page*/
+/* start blog */
+article.entry{
+    margin-top: 10px;
+    height: auto;
+    width: 45%;
+}
+header.header-entry{
+    margin-top: 20px;
+}
+header.header-entry .date{
+    background-color: #f19f30;
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 5px;
+}
+header.header-entry .date time,
+.entry-information .date time{
+    font-size: 30px;
+    font-family: 'relaway', sans-serif;
+    font-weight: 700;
+}
+header.header-entry .date time span,
+.entry-information .date time span{
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+}
+header.header-entry .entry-title{
+    float: right;
+    width: calc(100% -90px);
+}
+header.header-entry h2{
+    margin:0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header.header-entry p.author,
+.entry-information p.author{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #000;
+    font-family: 'relaway', sans-serif;
+    float: left;
+}
+.entry-information p.author{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.entry-information{
+    margin-top:30px;
+}
+p.author i,
+.entry-information p.author i{
+    color:#f19f30 ;
+    font-size: 30px;
+}
+.button{
+    background-color: darkred;
+    font-size: 16px;
+    width: auto;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 80px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.entry-content p{
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.container-blog main{
+    display: block;
+    /* display: grid;
+    grid-template-columns: 50%,50% !important;
+    grid-gap:1rem;
+    text-align: center;
+    clear: both; */
+    width: 100%;
+    height: 100%;
+}
+.container-blog main article{
+    display: inline-block;
+    width: 45%;
+    height: 48%;
+}
+
+.main-content main div.entry-information .date{
+    background-color: #f19f30;
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 5px;
+}
+.thumbnail{
+    float: right;
+}
+/*end blog*/
+/* comment */
+.comment-reply-title{
+    font-weight: 700;
+    text-align: center;
+}
